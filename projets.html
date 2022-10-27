@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Projets de Yata</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/icon2.png" rel="icon">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kelly - v4.9.1
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Yata</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="certifs.html">Certifications</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+        <a href="https://www.facebook.com/gayendeyeyatta.gaye" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/y_gvye.n/?hl=fr" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ndeye-yata-gaye-055098167" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Administration Système et Réseau sous Marionnet(2022)</h2>
+            <p>Dans ce projet, nous avons mis en place un réseau et l'administrer avec les services réseaux. Voici le plan d'adressage du projet :.</p>
+          </div>
+          <div class="section-title">
+            <img height="520px" width="1200" src="assets/img/adsys.PNG" alt="Topologie">
+          </div>
+          <div class="section-title">
+            <p>
+              Le projet s'est déroulé comme suit :
+            </p>
+          </div>
+          <div>
+            <ol>
+              <li>Installation et configuration de la distribution Débian, puis installation de l'outil Marionnet</li>
+              <li>
+                Ecrire des Scripts pour :
+                  <ul>
+                    <li>La sauvegarde des commandes de configuration de chaque machine virtuelle.</li>
+                    <li>La création (massive) de comptes d'utilisateur.</li>
+                    <li>La suppression d'un utilisateur à partir de son login.</li>
+                    <li>La sauvegarde des fichiers Système.</li>
+                    <li>Etc.</li>
+                  </ul>
+              </li>
+              <li>Configuration du serveur DHCP puis les serveurs DNS</li>
+                <ul>
+                  <li>dns1 représente le serveur primaire.</li>
+                  <li>dns2 est le serveur esclave.</li>
+                </ul>
+              <li>On procède au test de fonctionnement de nos serveurs en ajoutant deux PCs m1 et m2.</li>
+              <li>Maintenant que toutes nos configurations fonctionnent, nous allons installer et configurer le serveur LDAP sur la machine m1. Ensuite
+                  nous avons alimenté notre annuaire en utilisant le script d'ajout massive d'utilisateurs.</li>
+              <li>configurer la machine m2 en tant que serveur NFS. Pous tester son fonctionnement, nous avons créer un dossier partagé(contenant des fichiers) 
+                sur le serveur. Ensuite nous avons ajouté une ,machine cliente qui va faire le montage du dossier partagé dqns le serveurs  et d'accéder
+                aux fichiers qui s'y trouvent.</li>
+              <li>Pour la suite du projet, nous avons configuré la nouvelle machine ajouter comme serveur web et créé notre premier page web en guise de test.</li>
+              <li>Mise en place du serveur Postfix et échange de courriers entre les machines clientes pour tester le serveur</li>
+              <li>Pour terminer, ajouter des machines et tester le fonctionnement global de l'ensemble de nos équipments et services réseaux mise en oeuvre/li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Communication Réseaux (2022)</h2>
+          <p>Mise en place d'un petit réseau comportant quatre routeurs Cisco et des PC reliés à ces routeurs. Voici la topologie du réseau :</p>
+        </div>
+        <div align = "center">
+          <img height="500px" width="500" src="assets/img/topo.PNG" alt="Topologie">
+        </div>
+        <div class="section-title">
+          <p>Dans un premier temps, nous avons procédé à la configuration des routeurs. Nous avons utilisé le protocole OSPF pour gérer 
+             routage dynamiquement. Ensuite nous avons configurer le DHCP sur chaque routeur afin que chaque PC d'un sous réseau puisse etre 
+             configuré automatiquement(allocation automatique d'adresse IP, de masque de sous réseau, DNS server, default getway, etc.)
+             Aprés ses configuration nous avons testé la communication entre les PCs d'un sous réseau à un autre  avec des commande ping.
+             Et à la fin nous avons pu mettre en place le NAT pour la translation des adresses privées.
+          </p>
+        </div>
+        <div align = "center">
+          <img height="250px" width="500" src="assets/img/nat.PNG" alt="Topologie">
+        </div>
+      </div>
+      <br>
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>PFE : Process Automation (2021)</h2>
+        </div>
+        <div>
+          <p>Ce projet de fin d’études entrait dans le cadre de la conception et de la mise en place d'une solution
+            d’automatisation des processus de prise de commande au sein de la plateforme qui gère les offres fixes en utilisant des informations 
+            collectées à partir d’une application mobile. 
+            Nous avions dans un premier temps fait une étude sur les processus de design et 
+            d’automatisation existants sur le marché. Cette première phase nous avait permis d’adopter une démarche 
+            réflexive et donc de mieux concevoir la solution. Ensuite, nous avions procédé à une implémentation de la solution retenue (UiPath).
+          </p>
+          <p>
+            La solution proposée permet principalement de faire : 
+            <ul>
+              <li>création d’un client dans GAIA</li>  
+              <li>La suspension d’une ligne </li>
+              <li>La résiliation d’une ligne </li>
+              <li>Le transfert local </li>
+              <li>La création d’un NA(Nouvel Abonné)</li>
+              <li>La migration </li>
+            </ul>
+          </p>
+          <div class="container" data-aos="fade-up" align="center">
+            <img height="400px" width="700" src="assets/img/uipath1.png" alt="Topologie">
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>IOT : Système de recueil de données avec LORA et MongoDB (2019)</h2>
+        </div>
+        <div>
+          <p>
+            Ce projet consistait à mettre en place un système de recueil de données en utilisant la technologie Lora. Les données sont recueillies
+            gràce aux capteurs du kid Lora et stockées dans le Cloud via la plateforme ThingSpeak. Et ce sont ces données aue nous allons récupérer
+            dans une application real time qui utilise comme base de données MongoDB.
+          </p>
+        </div>
+        <p>
+          Voici la liste des outils utilisés dans ce projet :
+          <div class="container" data-aos="fade-up" align="center">
+            <img height="500px" width="1000" src="assets/img/outils.PNG" alt="Topologie">
+          </div>
+        </p>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>yata</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
